@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sawah Pasir</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+TZ+Guides&family=Taprom&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar-hero">
+      <span><a href="#home" class="child-nav-hero nav-hero-home">Home</a></span>
+      <span
+        ><a
+          href="#about"
+          class="child-nav-hero nav-hero-about"
+          data-target="about"
+          >About</a
+        ></span
+      >
+      <span
+        ><a
+          href="#services"
+          class="child-nav-hero nav-hero-services"
+          data-target="services"
+          >Services</a
+        ></span
+      >
+      <span
+        ><a
+          href="#portfolio"
+          class="child-nav-hero nav-hero-portfolio"
+          data-target="portfolio"
+          >Portfolio</a
+        ></span
+      >
+      <span
+        ><a
+          href="#clients"
+          class="child-nav-hero nav-hero-clients"
+          data-target="clients"
+          >Clients</a
+        ></span
+      >
+      <span
+        ><a
+          href="#contact"
+          class="child-nav-hero nav-hero-contact"
+          data-target="contact"
+          >Contact Us</a
+        ></span
+      >
+    </nav>
+    <!-- Navbar start -->
+    <div class="navbar">
+      <!-- Navbar mobile -->
+      <div class="navbar-mobile">
+        <div class="hamburger">
+          <button class="btn-hamburger">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+        <div class="logo-mobile">
+          <span>
+            <img src="image/logo.png" alt="" />
+          </span>
+        </div>
+      </div>
+      <!-- End navbar mobile -->
+
+      <!-- Navbar desktop -->
+      <div class="navbar-desktop">
+        <div class="logo-desktop">
+          <img src="image/logo.png" alt="" />
+        </div>
+        <nav class="navbar-menu">
+          <a href="#home" class="after-menu menu-active">Home</a>
+          <a href="#about" class="after-menu nav-desk-about" data-target="about"
+            >About</a
+          >
+          <a
+            href="#services"
+            class="after-menu nav-desk-services"
+            data-target="services"
+            >Services</a
+          >
+          <a
+            href="#portfolio"
+            class="after-menu nav-desk-portfolio"
+            data-target="portfolio"
+            >Portfolio</a
+          >
+          <a
+            href="#clients"
+            class="after-menu nav-desk-clients"
+            data-target="clients"
+            >Clients</a
+          >
+        </nav>
+        <div class="cta">
+          <a href="#contact" class="nav-desk-contact" data-target="contact"
+            >Contact Us <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+      <!-- End navbar desktop -->
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Content start -->
+    <main>
+      <div class="container">
+        <!-- Home start -->
+        <section id="home" class="home page">
+          <!-- home content start -->
+          <div class="home-content">
+            <div class="home-text" data-aos="zoom-out-down">
+              <p class="text-first">Make Future With Us</p>
+              <p class="text-second">Bravely Standing in the Sand</p>
+              <p class="text-three">
+                With competent People, We Will Bring You Closer to the Dreams
+                You Want to Achieve.
+                <img src="image/blink.png" alt="" class="home-image" />
+              </p>
+            </div>
+
+            <div class="home-btn" data-aos="fade-down">
+              <a href="" class="home-btn-first">Contact Us</a>
+              <a href="" class="home-btn-second">More</a>
+            </div>
+            <div class="home-start" data-aos="fade-up">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <p>from 100++ reviewers</p>
+            </div>
+            <img
+              src="image/cloud.png"
+              alt=""
+              class="home-image cloud"
+              data-aos="fade-left"
+            />
+            <img
+              src="image/code.png"
+              alt=""
+              class="home-image code"
+              data-aos="fade-right"
+            />
+            <img
+              src="image/arrow.png"
+              alt=""
+              class="home-image arrow"
+              data-aos="fade-right"
+            />
+            <img src="image/pasir.png" alt="" class="home-image-pasir" />
+          </div>
+          <!-- home content end -->
+        </section>
+        <!-- Home end -->
+
+        <!-- About start -->
+        <section id="about" class="about page">
+          <div class="about-content">
+            <div class="about-text">
+              <h2 data-aos="fade-down">
+                Efficient and Integrated Manufacturing Services
+              </h2>
+              <p data-aos="fade-right">
+                Simplyfy operations with our efficient, quality-focused services
+              </p>
+            </div>
+            <div class="about-box">
+              <div
+                class="about-content-box"
+                data-aos="fade-right"
+                data-aos-delay="0"
+              >
+                <div class="about-content-fonts">
+                  <i class="fa-regular fa-sun font-first"></i>
+                  <i
+                    class="fa-solid fa-down-left-and-up-right-to-center font-second"
+                  ></i>
+                </div>
+                <div class="about-content-title">
+                  <h3>Production and Assembly</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, ad?
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="about-content-box"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <div class="about-content-fonts">
+                  <i class="fa-solid fa-layer-group font-first"></i>
+                  <i
+                    class="fa-solid fa-down-left-and-up-right-to-center font-second"
+                  ></i>
+                </div>
+                <div class="about-content-title">
+                  <h3>Custome Manufacturing</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, ad?
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="about-content-box"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                <div class="about-content-fonts">
+                  <i class="fa-solid fa-wrench font-first"></i>
+                  <i
+                    class="fa-solid fa-down-left-and-up-right-to-center font-second"
+                  ></i>
+                </div>
+                <div class="about-content-title">
+                  <h3>Quality Control</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, ad?
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="about-content-box"
+                data-aos="fade-right"
+                data-aos-delay="600"
+              >
+                <div class="about-content-fonts">
+                  <i class="fa-solid fa-shield font-first"></i>
+                  <i
+                    class="fa-solid fa-down-left-and-up-right-to-center font-second"
+                  ></i>
+                </div>
+                <div class="about-content-title">
+                  <h3>Production and Assembly</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, ad?
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="about-content-box"
+                data-aos="fade-right"
+                data-aos-delay="800"
+              >
+                <div class="about-content-fonts">
+                  <i class="fa-solid fa-box-open font-first"></i>
+                  <i
+                    class="fa-solid fa-down-left-and-up-right-to-center font-second"
+                  ></i>
+                </div>
+                <div class="about-content-title">
+                  <h3>Packaging and Logistics</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, ad?
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="about-content-box"
+                data-aos="fade-right"
+                data-aos-delay="1000"
+              >
+                <div class="about-content-fonts">
+                  <i class="fa-solid fa-chart-line font-first"></i>
+                  <i
+                    class="fa-solid fa-down-left-and-up-right-to-center font-second"
+                  ></i>
+                </div>
+                <div class="about-content-title">
+                  <h3>Consulting Market Research</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, ad?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About end -->
+
+        <!-- Services start -->
+        <section id="services" class="services page">
+          <div class="services-content">
+            <div class="services-content-first">
+              <div class="services-content-text-first">
+                <h2 data-aos="fade-down">
+                  Mastering Proven Strategis That Drive Real Results
+                </h2>
+                <p data-aos="fade-right">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  expedita nisi harum soluta tempore doloremque quae! Vitae
+                  quibusdam quidem sunt saepe hic, autem laudantium. Minima amet
+                  atque ullam facilis et!
+                </p>
+                <a href="" data-aos="zoom-in-up">Order Now</a>
+              </div>
+              <div
+                class="container-services-content-image"
+                data-aos="fade-left"
+              >
+                <div class="swiper-services-content-image">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="image/services/img/laptop.png" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="image/services/img/tablet.png" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="image/services/img/desktop.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="services-content-second" data-aos="fade-up">
+              <div class="services-content-text-second">
+                <h4>Development Stack</h4>
+                <h3>Cutting-Edge-Technologies</h3>
+                <p>
+                  Always updated with the latest technology so we provide the
+                  best service for you.
+                </p>
+              </div>
+              <div class="swiper-services-content-icon">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="image/services/react.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/go.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/kotlin.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/laravel.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/netbin.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/php.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/sb.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/vue.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/html.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/css.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/services/js.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Services end -->
+
+        <!-- Portfolio start -->
+        <section id="portfolio" class="portfolio page">
+          <div class="portfolio-content">
+            <div class="portfolio-content-text">
+              <div class="portfolio-content-header" data-aos="fade-down">
+                <h1>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h1>
+              </div>
+              <div class="portfolio-content-count">
+                <div
+                  class="portfolio-content-count-first"
+                  data-aos="fade-up"
+                  data-aos-delay="0"
+                >
+                  <h6>Companies</h6>
+                  <h4>3.146+</h4>
+                  <p>Part on partnering</p>
+                </div>
+                <div
+                  class="portfolio-content-count-second"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <h6>Unicorns</h6>
+                  <h4>10+</h4>
+                  <p>Colaborating</p>
+                </div>
+                <div
+                  class="portfolio-content-count-third"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <h6>Templates</h6>
+                  <h4>600+</h4>
+                  <p>Use for commercials</p>
+                </div>
+                <div
+                  class="portfolio-content-count-fourth"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <h6>Ratings</h6>
+                  <h4>5/5 ⭐</h4>
+                  <p>Satisfactions</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-content-swipers">
+              <div class="portfolio-content-swiper-first" data-aos="fade-left">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/1.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/2.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/3.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/4.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/5.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/6.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/7.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/8.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="portfolio-content-swiper-second"
+                data-aos="fade-right"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/8.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/7.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/6.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/5.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/4.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/3.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/2.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/portfolio/1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio end -->
+
+        <!-- Clients start -->
+        <section id="clients" class="clients page">
+          <div class="clients-content">
+            <div class="clients-content-text">
+              <h1 data-aos="fade-down">
+                Empowering Top Companies with Seamless Integrations
+              </h1>
+              <p data-aos="fade-right">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus nobis quae assumenda quas quam et asperiores vero sed
+                error, vel officiis fugit nisi non nemo nulla saepe tempora
+                neque atque!
+              </p>
+              <a href="" data-aos="zoom-in-up">Work with us</a>
+            </div>
+            <div
+              class="clients-content-icons"
+              data-aos="zoom-in"
+              data-aos-delay="0"
+            >
+              <div
+                class="client-content-icons-first"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+              >
+                <div class="icon-first">
+                  <img src="image/services/html.png" alt="" />
+                </div>
+                <div class="icon-second">
+                  <img src="image/services/css.png" alt="" />
+                </div>
+                <div class="icon-third">
+                  <img src="image/services/js.png" alt="" />
+                </div>
+                <div class="icon-fourth">
+                  <img src="image/services/netbin.png" alt="" />
+                </div>
+              </div>
+              <div
+                class="client-content-icons-second"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <div class="icon-first">
+                  <img src="image/services/html.png" alt="" />
+                </div>
+                <div class="icon-second">
+                  <img src="image/services/css.png" alt="" />
+                </div>
+                <div class="icon-third">
+                  <img src="image/services/js.png" alt="" />
+                </div>
+                <div class="icon-fourth">
+                  <img src="image/services/netbin.png" alt="" />
+                </div>
+              </div>
+              <div
+                class="client-content-icons-third"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
+                <div class="icon-first">
+                  <img src="image/services/html.png" alt="" />
+                </div>
+                <div class="icon-second">
+                  <img src="image/services/css.png" alt="" />
+                </div>
+                <div class="icon-third">
+                  <img src="image/services/js.png" alt="" />
+                </div>
+                <div class="icon-fourth">
+                  <img src="image/services/netbin.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Clients end -->
+      </div>
+    </main>
+    <!-- Content end -->
+
+    <!-- Contact and footer start -->
+    <footer id="contact" class="contact page">
+      <div class="contact-content">
+        <div
+          class="contact-content-first"
+          data-aos="fade-right"
+          data-aos-delay="0"
+        >
+          <img src="image/logo.png" alt="" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+            atque quidem sit debitis, beatae placeat?
+          </p>
+          <a href="">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div
+          class="contact-content-second"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
+          <h1>Contact.</h1>
+          <p class="contact-location">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <span>Jl. Wr Supratman, Desa Ampalu, Kota Pariaman</span>
+          </p>
+          <p class="contact-email">
+            <i class="fa-regular fa-envelope"></i>
+            <span>info@sandfield.com</span>
+          </p>
+          <p class="contact-phone">
+            <i class="fa-solid fa-phone"></i> <span>082172036414</span>
+          </p>
+        </div>
+        <div
+          class="contact-content-third"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
+          <h1>Links.</h1>
+          <div class="contact-links">
+            <div class="contact-link-left">
+              <a href=""
+                ><i class="fa-solid fa-arrow-right"></i> <span>Home</span></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-arrow-right"></i> <span>About</span></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-arrow-right"></i>
+                <span>Services</span></a
+              >
+            </div>
+            <div class="contact-link-right">
+              <a href=""
+                ><i class="fa-solid fa-arrow-right"></i>
+                <span>Portfolio</span></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-arrow-right"></i> <span>Clients</span></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-arrow-right"></i>
+                <span>Contact Us</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-content-footer">
+        <div class="footer-icon">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="copyright">&copy; 2024 | Sand Field Software House</div>
+      </div>
+    </footer>
+    <!-- Contact and footer end -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+      });
+    </script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- my script -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
